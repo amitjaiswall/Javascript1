@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+<label form="pform" ><h1>"Patient Details" </h1></label>
+
+<form id="pform">
+
+
+<label id="pname">Name:</label>
+<input type="text" id="pname">
+<br>
+<label id="pemail">Email:</label>
+<input type="email" id="pemail">
+
+<br>
+<label>
+<button type="submit">Submit</button>
+</label>
+<br>
+<label>
+    <button type="reset">Reset</button>
+</label>
+
+</form>
+
+
+
+
+
+
+
+
+<label form="uname"><h1>Book Appointment</h1></label>
+<form id="uname">
+    <label id="nam">Name:</label>
+    <input type="Text" id="nam">
+    <br>
+    <span>Email: </span>
+    <input type="email">
+    <br>
+    <span>Phone: </span>
+    <input type="">
+    <br>
+    <span>Date: </span>
+    <input type="date">
+    <br>
+    <span>Time: </span>
+    <input type="time">
+    <br>
+    <label >
+    <button type="submit">Submit.</button>
+    </label>
+    <br>
+    <br>
+    <button type="button">GREET</button>
+</form>
+
+
+
+<button type="button" onclick="greet(event)">Greet</button>
+<script>
+    function greet(){
+        console.log("hiiii there")
+    }
+</script>
+</body>
+</html>
